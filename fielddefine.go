@@ -1,4 +1,4 @@
-package ofdfielddefine
+package main
 
 var Define = map[string]interface{}{
 	"acctmanfee":                             map[string]interface{}{"type": "N", "size": 16, "scale": 2, "comment": "null"},

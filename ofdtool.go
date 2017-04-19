@@ -4,7 +4,6 @@ import (
 	"bufio"
 	"fmt"
 	"github.com/axgle/mahonia"
-	"github.com/kaizener/ofdfielddefine"
 	"gopkg.in/alecthomas/kingpin.v2"
 	. "github.com/logrusorgru/aurora"
 	"log"
@@ -139,7 +138,7 @@ func parseCmd() {
 			checkError(err)
 			if fi.rowCnt > 0 {
 				for _, v := range fi.fieldNames {
-					o := ofdfielddefine.Define[v]
+					o := Define[v]
 					checkError(err)
 					switch m := o.(type) {
 					case map[string]interface{}:
