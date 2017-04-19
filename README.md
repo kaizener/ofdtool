@@ -1,7 +1,7 @@
 # ofdtool
 开放式基金数据文件工具，支持《开放式基金业务数据交换协议(试行版)》(http://www.chinaclear.cn/old_files/1322553368270.rar) 
 
-<pre>
+```bash
 $ofdtool
 usage: ofdtool [<flags>] <command> [<args> ...]
 
@@ -22,4 +22,4 @@ Commands:
 
   diff <lside file> <rside file>
     diff two files.
-</pre>
+```
